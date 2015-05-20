@@ -5,8 +5,7 @@ Ouverture de l'agenda d'un mobile Windows Phone et ajout d'un nouveau rappel.
 Git: https://github.com/Alyotech/phonegap-wp8-alyocalendar.git
 
 Feature:
-<code>
-   <feature name="Calendar">
-        <param name="wp-package" value="calendar"/>
-    </feature>
-</code>
+
+   &lt;feature name="Calendar"&gt;
+        &lt;param name="wp-package" value="calendar"/&gt;
+   &lt;/feature&gt;
