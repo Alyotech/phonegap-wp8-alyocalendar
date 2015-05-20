@@ -30,7 +30,7 @@ Implementation:
    window.plugins.calendar.createEvent(subject, location, notes, startDate, endDate, onSuccess, onError);
 
    /* Call from 'Candendar.js' wrapper */
-    cordova.exec(successCallback, errorCallback, "Calendar", "createEventWithOptions", [{
+   cordova.exec(successCallback, errorCallback, "Calendar", "createEventWithOptions", [{
       "title": title,
       "location": location,
       "notes": notes,
