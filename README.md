@@ -9,13 +9,14 @@ Dependency:
    "Json.Net" NuGet Package
 
 Feature:
-
+<pre>
    <feature name="Calendar">
         <param name="wp-package" value="calendar"/>
    </feature>
-   
+</pre> 
+
 Implementation:
-<code>
+<pre>
    /*  Direct call
     *
     *  string: subject
@@ -37,4 +38,4 @@ Implementation:
       "endTime": endDate instanceof Date ? endDate.getTime() : null,
       "options": mergedOptions
    }]);
-</code>
+</pre>
