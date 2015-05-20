@@ -15,7 +15,7 @@ Feature:
    </feature>
    
 Implementation:
-
+<code>
    /*  Direct call
     *
     *  string: subject
@@ -37,6 +37,4 @@ Implementation:
       "endTime": endDate instanceof Date ? endDate.getTime() : null,
       "options": mergedOptions
    }]);
-    
-    
-    
+</code>
