@@ -1,0 +1,30 @@
+{
+  "name": "AlyoCalendar",
+  "version": "1.0.0-dev",
+  "description": "Alyotech Calendar Plugin",
+  "cordova": {
+    "id": "AlyoCalendar",
+    "platforms": [
+     "wp8",
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alyotech/phonegap-wp8-alyocalendar.git"
+  },
+  "keywords": [
+    "cordova",
+    "calendar",   
+    "cordova-wp8",
+    "cordova-windows"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Alyotech",
+  "license": "Apache 2.0"
+}

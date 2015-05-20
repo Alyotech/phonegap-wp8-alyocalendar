@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="AlyoCalendar" version="0.1.0">
+  <name>AlyoCalendar</name>
+  <description>Calendar WP8</description>
+  <license>Alyotech</license>
+  <keywords></keywords>
+  <repo></repo>
+  <issue></issue>
+
+  <engines>
+    <engine name="cordova-wp8" version=">=3.0.0" />
+    <engine name="cordova-windows8" version=">=3.0.0" />
+  </engines>
+  
+  <js-module src="www/calendar.js" name="calendar">
+    <clobbers target="window.plugins.calendar" />
+  </js-module>
+
+  <!-- wp8 -->
+  <platform name="wp8">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Calendar">
+        <param name="wp-package" value="calendar"/>
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+    <source-file src="src/wp/Calendar.cs" />
+  </platform>
+
+  <!-- windows -->
+  <platform name="windows">
+    <js-module src="src/windows/calendar.js" name="calendar">
+      <merges target="" />
+    </js-module>
+    <source-file src="src/wp/Calendar.cs" />
+  </platform>
+</plugin>
