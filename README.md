@@ -1,5 +1,5 @@
 # phonegap-wp8-alyocalendar
-Ouverture de l'agenda d'un mobile Windows Phone et ajout d'un nouveau rappel.
+Ouverture de l'agenda d'un mobile Windows Phone et ajout d'une nouvelle tâche.
 
 
 Git: https://github.com/Alyotech/phonegap-wp8-alyocalendar.git
