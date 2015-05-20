@@ -19,13 +19,13 @@ Implementation:
 <pre>
    /*  Direct call from JS
     *
-    *  string: subject
-    *  string: location
-    *  string: notes
-    *  string: startDate (string ISO date)
-    *  string: endDate (string ISO date)
-    *  function: onSuccess (not implemented)
-    *  function: onError
+    *  @param {string} subject
+    *  @param {string} location
+    *  @param {string} notes
+    *  @param {string} startDate (string ISO date)
+    *  @param {string} endDate (string ISO date)
+    *  @param {function} onSuccess (not implemented)
+    *  @param {function} onError
     */
    window.plugins.calendar.createEvent(subject, location, notes, startDate, endDate, onSuccess, onError);
 
