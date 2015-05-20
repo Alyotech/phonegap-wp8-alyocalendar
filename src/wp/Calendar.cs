@@ -120,8 +120,8 @@ namespace Cordova.Extension.Commands
                 task.AppointmentStatus = Microsoft.Phone.UserData.AppointmentStatus.Busy;
                 task.Show();
 
-                // Mis en commentaire de manière à éviter l'affichage du message de confirmation coté JS même si l'utilisateur
-                // annule la création de la tache.
+                // A décommenter si besoin
+                // Callback JS après affichage
                 //DispatchCommandResult(new PluginResult(PluginResult.Status.OK, ""));
             }
             catch (Exception e)
