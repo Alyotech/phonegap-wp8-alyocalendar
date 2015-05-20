@@ -6,13 +6,13 @@ Git: https://github.com/Alyotech/phonegap-wp8-alyocalendar.git
 
 Dependency:
 
-   "Json.Net" NuGet Package
+   <b>"Json.Net"</b> NuGet Package
 
 Feature:
 <pre>
-   <feature name="Calendar">
-        <param name="wp-package" value="calendar"/>
-   </feature>
+   &lt;feature name="Calendar"&gt;
+        &lt;param name="wp-package" value="calendar"/&gt;
+   &lt;/feature&gt;
 </pre> 
 
 Implementation:
