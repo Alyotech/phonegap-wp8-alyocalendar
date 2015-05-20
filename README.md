@@ -17,7 +17,7 @@ Feature:
 
 Implementation:
 <pre>
-   /*  Direct call
+   /*  Direct call from JS
     *
     *  string: subject
     *  string: location
@@ -28,6 +28,7 @@ Implementation:
     *  function: onError
     */
    window.plugins.calendar.createEvent(subject, location, notes, startDate, endDate, onSuccess, onError);
+
 
    /* Call from 'Candendar.js' wrapper */
    cordova.exec(successCallback, errorCallback, "Calendar", "createEventWithOptions", [{
